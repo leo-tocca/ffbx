@@ -53,6 +53,15 @@ an additional column with the profile name is shown:
 ffbx.sh
 ~~~~
 
+To run the script and export bookmarks to a text file, you can use the following command:
+
+~~~~ bash
+./ffbx.sh [path_to_places.sqlite] [output_file.txt]
+~~~~
+- Replace [path_to_places.sqlite] with the path to your places.sqlite file (optional if it can be autodiscovered).
+- Replace [output_file.txt] with the desired output file name.
+If you do not specify an output file, the script will print the output directly to the console.
+
 
 Example on a new profile
 ------------------------
